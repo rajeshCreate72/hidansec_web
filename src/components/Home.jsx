@@ -5,10 +5,11 @@ import SecondPage from "./SecondPage";
 import ThirdPage from "./ThirdPage";
 import FourthPage from "./FourthPage";
 import Footer from "./Footer";
+import "./main.css";
 
 function Home() {
   return (
-    <div>
+    <div className="all-divs">
       <NavBar />
       <FirstPage />
       <SecondPage />

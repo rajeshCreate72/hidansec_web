@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(#0d0c1f 75%, #100d4900);
+  color: white;
+  position: static;
+}
+
+.nav-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 10vw;
+}
+
+.details {
+  margin-top: 30px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.get-in-touch {
+  margin-top: 30px;
+}
+
+.logo {
+  margin-left: 10vw;
+}
+
+.first-page {
+  align-items: center;
+}
